@@ -46,7 +46,7 @@ Repository URL: [https://github.com/lellerena/frontend_parcial_1](https://github
 
 ## Preview
 
-![E-commerce Template](https://user-images.githubusercontent.com/your-image-path/ecommerce-template.png)
+![E-commerce Template](assets/ecommerce_template.png)
 
 ## Getting Started
 
