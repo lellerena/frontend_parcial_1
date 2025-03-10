@@ -1,0 +1,167 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header */
+header {
+    width: 100%;
+    background-color: white;
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-container {
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    flex: 1;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    flex: 2;
+    justify-content: center;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-links .active {
+    font-weight: bold;
+}
+
+.search-bar {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 220px;
+}
+
+.search-bar img {
+    width: 18px;
+    height: 18px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+    margin: 20px;
+    font-size: 14px;
+}
+
+/* Our Story */
+.our-story {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.story-content {
+    flex: 1;
+    padding-right: 30px;
+}
+
+.story-image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Statistics */
+.statistics {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 0;
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.stat img {
+    width: 60px;
+    height: 60px; 
+    object-fit: contain; 
+}
+
+.highlight {
+    background: #d9534f;
+    color: white;
+}
+
+/* Team */
+.team {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 0;
+}
+
+.team-member {
+    text-align: center;
+    position: relative;
+}
+
+.team-member img {
+    max-width: 300px; 
+    height: auto; 
+    border-radius: 8px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 8px; 
+    justify-content: flex-start; 
+    margin-top: 5px; 
+}
+
+.social-icons img {
+    width: 20px; 
+    height: 20px;
+}
+
+/* Features */
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.feature img{
+    width: 60px;
+    height: 60px; 
+    object-fit: contain;
+}

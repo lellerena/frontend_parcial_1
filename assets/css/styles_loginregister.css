@@ -1,0 +1,202 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header */
+header {
+    width: 100%;
+    background-color: white;
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-container {
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+}
+
+/* Logo */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    flex: 1;
+    text-align: left;
+}
+
+/* Navegación */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    flex: 2;
+    justify-content: center;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.nav-links .active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Barra de búsqueda */
+.search-bar {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.search-bar input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 220px;
+    font-size: 14px;
+}
+
+.search-bar img {
+    width: 18px;
+    height: 18px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+/* Form Wrapper */
+.form-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Imagen en formulario */
+.form-image {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 30px;
+}
+
+.form-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Caja del formulario */
+.form-box {
+    width: 100%;
+    max-width: 380px;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.form-box h1,
+.form-box p {
+    margin-bottom: 10px;
+    color: gray;
+}
+
+/* Inputs */
+.form-box input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Botones */
+.btn {
+    width: auto;
+    padding: 10px 20px;
+    min-width: 120px;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.primary-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Botón de Google */
+.google-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: white;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.google-btn img {
+    width: 20px;
+}
+
+/* Texto de inicio de sesión */
+.login-text {
+    margin-top: 15px;
+    font-size: 14px;
+    color: gray;
+}
+
+.login-text a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Enlace de olvidar contraseña */
+.forgot-password {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #d9534f;
+}
+
+/* Acciones del formulario */
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+}
